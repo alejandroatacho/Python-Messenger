@@ -4,7 +4,7 @@ import os
 # key = []
 print("\n"+"Python Messenger has been initialized!")
 try:
-    while 1 == 1:
+    while True:
         answer = input(
             "\n"+"write down your answer/question below and press enter to continue: " + "\n")
         print("Your answer is: "+answer + "\n")
