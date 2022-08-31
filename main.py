@@ -2,7 +2,7 @@
 import os
 
 # key = []
-print("\n"+"Python Messenger has initialized!")
+print("\n"+"Python Messenger has been initialized!")
 try:
     while 1 == 1:
         answer = input(
@@ -16,6 +16,5 @@ try:
         # print("Write your reply here: " + "\n")
 
 except KeyboardInterrupt:
-    '''CTRL + C to_exit_program'''
-
     pass
+'''CTRL + C to_exit_program'''
