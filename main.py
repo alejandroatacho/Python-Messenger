@@ -5,7 +5,7 @@ import os
 
 try:
     while 1 == 1:
-        answer = input("Write your reply here: " + "\n")
+        answer = input("\n"+"Write your reply down here: " + "\n")
         print("Your answer is: "+answer + "\n")
         # answer = answer.clear()
         # os.system('cls' if os.name == 'nt' else 'clear')
@@ -14,5 +14,6 @@ try:
         # print("Write your reply here: " + "\n")
 
 except KeyboardInterrupt:
-    "ctrl + c"
+    '''CTRL + C to exit'''
+
     pass
